@@ -1,0 +1,16 @@
+# file options
+--exclude Pods, SwiftGen
+
+# format options
+--commas inline
+--empty void
+--header ignore
+--nospaceoperators
+--self init-only
+--semicolons never
+--wrapcollections before-first
+--xcodeindentation enabled
+
+# rules
+--enable isEmpty
+--disable wrapMultilineStatementBraces
