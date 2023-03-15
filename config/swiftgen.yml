@@ -1,10 +1,10 @@
 xcassets:
    inputs:
-     - SwiftToolsDemo/Sources/Assets.xcassets
+     - ../SwiftToolsDemo/Sources/Assets.xcassets
    outputs:
      - templateName: swift5
        params:
          forceProvidesNamespaces: true
          enumName: XCAsset
-       output: SwiftToolsDemo/Generated/Assets.swift
+       output: ../SwiftToolsDemo/Generated/Assets.swift
   

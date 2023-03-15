@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD0F153E29C287DE0055AD74 /* swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = DD0F153B29C287DE0055AD74 /* swiftlint.yml */; };
+		DD0F153F29C287DE0055AD74 /* .swiftformat in Resources */ = {isa = PBXBuildFile; fileRef = DD0F153C29C287DE0055AD74 /* .swiftformat */; };
 		DD3832B029C1543300609945 /* CoreDataModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3832A629C1543300609945 /* CoreDataModule.framework */; };
 		DD3832CC29C1544300609945 /* NetworkingModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3832C229C1544300609945 /* NetworkingModule.framework */; };
 		DD3832D129C1544300609945 /* NetworkingModuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3832D029C1544300609945 /* NetworkingModuleTests.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD0F153B29C287DE0055AD74 /* swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftlint.yml; sourceTree = "<group>"; };
+		DD0F153C29C287DE0055AD74 /* .swiftformat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .swiftformat; sourceTree = "<group>"; };
 		DD38324829C1534C00609945 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		DD38324B29C1539100609945 /* CoreDataModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataModule.swift; sourceTree = "<group>"; };
 		DD3832A629C1543300609945 /* CoreDataModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoreDataModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,9 +86,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD0F153A29C287A40055AD74 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				DD0F153C29C287DE0055AD74 /* .swiftformat */,
+				DD0F153B29C287DE0055AD74 /* swiftlint.yml */,
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
 		DD38322329C152C800609945 = {
 			isa = PBXGroup;
 			children = (
+				DD0F153A29C287A40055AD74 /* config */,
 				DD3832A729C1543300609945 /* CoreDataModule */,
 				DD3832C329C1544300609945 /* NetworkingModule */,
 				DD38322E29C152C800609945 /* Products */,
@@ -193,6 +207,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				DD0F154229C28A160055AD74 /* PBXTargetDependency */,
 			);
 			name = CoreDataModule;
 			productName = CoreDataModule;
@@ -286,6 +301,9 @@
 				Base,
 			);
 			mainGroup = DD38322329C152C800609945;
+			packageReferences = (
+				DD029EF729C160DE00EF8C1E /* XCRemoteSwiftPackageReference "SwiftTools" */,
+			);
 			productRefGroup = DD38322E29C152C800609945 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -303,6 +321,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD0F153F29C287DE0055AD74 /* .swiftformat in Resources */,
+				DD0F153E29C287DE0055AD74 /* swiftlint.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +385,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		DD0F154229C28A160055AD74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = DD0F154129C28A160055AD74 /* SwiftTools */;
+		};
 		DD3832B229C1543300609945 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = DD3832A529C1543300609945 /* CoreDataModule */;
@@ -727,6 +751,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DD029EF729C160DE00EF8C1E /* XCRemoteSwiftPackageReference "SwiftTools" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aliyasineser/SwiftTools";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DD0F154129C28A160055AD74 /* SwiftTools */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD029EF729C160DE00EF8C1E /* XCRemoteSwiftPackageReference "SwiftTools" */;
+			productName = "plugin:SwiftTools";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DD38322429C152C800609945 /* Project object */;
 }

@@ -94,12 +94,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DD3831ED29C1526100609945 = {
+		DD0F153929C287380055AD74 /* config */ = {
 			isa = PBXGroup;
 			children = (
 				DD4AE2D229C15FE7001CFB08 /* .swiftformat */,
 				DD4AE2D029C15FE7001CFB08 /* swiftgen.yml */,
 				DD4AE2D129C15FE7001CFB08 /* swiftlint.yml */,
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+		DD3831ED29C1526100609945 = {
+			isa = PBXGroup;
+			children = (
+				DD0F153929C287380055AD74 /* config */,
 				DD4AE2C329C158BA001CFB08 /* README.md */,
 				DD3831F829C1526100609945 /* SwiftToolsDemo */,
 				DD38320929C1526200609945 /* SwiftToolsDemoTests */,

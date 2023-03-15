@@ -9,33 +9,20 @@ import Foundation
 
 class CoreDataManager {
     var id: String {
-        return "someID"}
+        "someID"
+    }
 }
 
 // MARK: Test swiftlint
+
 extension CoreDataManager {
-    func test1(param:Int) {
+    func test1(param _: Int) {}
 
-    }
+    func test2(param _: Int) {}
 
+    func test3(param _: Int) {}
 
+    func test4(param _: Int) {}
 
-    func test2(param: Int) {
-
-
-
-    }
-
-    func test3(param :Int) {
-
-    }
-
-    func test4(param : Int) {
-
-    }
-
-    func test5(param: Int)
-    {
-
-    }
+    func test5(param _: Int) {}
 }
