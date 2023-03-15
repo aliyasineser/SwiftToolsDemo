@@ -14,12 +14,11 @@
 		DD38320B29C1526200609945 /* SwiftToolsDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD38320A29C1526200609945 /* SwiftToolsDemoTests.swift */; };
 		DD38321529C1526200609945 /* SwiftToolsDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD38321429C1526200609945 /* SwiftToolsDemoUITests.swift */; };
 		DD38321729C1526200609945 /* SwiftToolsDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD38321629C1526200609945 /* SwiftToolsDemoUITestsLaunchTests.swift */; };
-		DD3832E829C1570C00609945 /* swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = DD3832E629C1570C00609945 /* swiftlint.yml */; };
-		DD3832E929C1570C00609945 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = DD3832E729C1570C00609945 /* swiftgen.yml */; };
-		DD3832EC29C1571300609945 /* .swiftformat in Resources */ = {isa = PBXBuildFile; fileRef = DD3832EA29C1571300609945 /* .swiftformat */; };
-		DD3832ED29C1571300609945 /* .swift-version in Resources */ = {isa = PBXBuildFile; fileRef = DD3832EB29C1571300609945 /* .swift-version */; };
-		DD3832EF29C1571A00609945 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DD3832EE29C1571A00609945 /* .gitignore */; };
 		DD4AE2C429C158BA001CFB08 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DD4AE2C329C158BA001CFB08 /* README.md */; };
+		DD4AE2D329C15FE7001CFB08 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = DD4AE2D029C15FE7001CFB08 /* swiftgen.yml */; };
+		DD4AE2D429C15FE7001CFB08 /* swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = DD4AE2D129C15FE7001CFB08 /* swiftlint.yml */; };
+		DD4AE2D529C15FE7001CFB08 /* .swiftformat in Resources */ = {isa = PBXBuildFile; fileRef = DD4AE2D229C15FE7001CFB08 /* .swiftformat */; };
+		DD4AE2D829C15FFE001CFB08 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4AE2D729C15FFE001CFB08 /* Assets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,12 +62,11 @@
 		DD38321029C1526200609945 /* SwiftToolsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftToolsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD38321429C1526200609945 /* SwiftToolsDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftToolsDemoUITests.swift; sourceTree = "<group>"; };
 		DD38321629C1526200609945 /* SwiftToolsDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftToolsDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		DD3832E629C1570C00609945 /* swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftlint.yml; sourceTree = "<group>"; };
-		DD3832E729C1570C00609945 /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
-		DD3832EA29C1571300609945 /* .swiftformat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .swiftformat; sourceTree = "<group>"; };
-		DD3832EB29C1571300609945 /* .swift-version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
-		DD3832EE29C1571A00609945 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		DD4AE2C329C158BA001CFB08 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DD4AE2D029C15FE7001CFB08 /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
+		DD4AE2D129C15FE7001CFB08 /* swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftlint.yml; sourceTree = "<group>"; };
+		DD4AE2D229C15FE7001CFB08 /* .swiftformat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .swiftformat; sourceTree = "<group>"; };
+		DD4AE2D729C15FFE001CFB08 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +97,13 @@
 		DD3831ED29C1526100609945 = {
 			isa = PBXGroup;
 			children = (
+				DD4AE2D229C15FE7001CFB08 /* .swiftformat */,
+				DD4AE2D029C15FE7001CFB08 /* swiftgen.yml */,
+				DD4AE2D129C15FE7001CFB08 /* swiftlint.yml */,
 				DD4AE2C329C158BA001CFB08 /* README.md */,
 				DD3831F829C1526100609945 /* SwiftToolsDemo */,
 				DD38320929C1526200609945 /* SwiftToolsDemoTests */,
 				DD38321329C1526200609945 /* SwiftToolsDemoUITests */,
-				DD3832F029C1572000609945 /* config */,
 				DD3831F729C1526100609945 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -121,9 +121,10 @@
 		DD3831F829C1526100609945 /* SwiftToolsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DD4AE2C929C15C8C001CFB08 /* Sources */,
+				DD4AE2C729C15C2E001CFB08 /* Generated */,
 				DD3831F929C1526100609945 /* SwiftToolsDemoApp.swift */,
 				DD3831FB29C1526100609945 /* ContentView.swift */,
-				DD3831FD29C1526200609945 /* Assets.xcassets */,
 				DD3831FF29C1526200609945 /* Preview Content */,
 			);
 			path = SwiftToolsDemo;
@@ -154,16 +155,20 @@
 			path = SwiftToolsDemoUITests;
 			sourceTree = "<group>";
 		};
-		DD3832F029C1572000609945 /* config */ = {
+		DD4AE2C729C15C2E001CFB08 /* Generated */ = {
 			isa = PBXGroup;
 			children = (
-				DD3832EE29C1571A00609945 /* .gitignore */,
-				DD3832EB29C1571300609945 /* .swift-version */,
-				DD3832EA29C1571300609945 /* .swiftformat */,
-				DD3832E729C1570C00609945 /* swiftgen.yml */,
-				DD3832E629C1570C00609945 /* swiftlint.yml */,
+				DD4AE2D729C15FFE001CFB08 /* Assets.swift */,
 			);
-			path = config;
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		DD4AE2C929C15C8C001CFB08 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				DD3831FD29C1526200609945 /* Assets.xcassets */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +186,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				DD4AE2C629C15A32001CFB08 /* PBXTargetDependency */,
 			);
 			name = SwiftToolsDemo;
 			productName = SwiftToolsDemo;
@@ -274,14 +280,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD3832EC29C1571300609945 /* .swiftformat in Resources */,
-				DD3832EF29C1571A00609945 /* .gitignore in Resources */,
 				DD38320129C1526200609945 /* Preview Assets.xcassets in Resources */,
-				DD3832E829C1570C00609945 /* swiftlint.yml in Resources */,
+				DD4AE2D429C15FE7001CFB08 /* swiftlint.yml in Resources */,
+				DD4AE2D529C15FE7001CFB08 /* .swiftformat in Resources */,
 				DD3831FE29C1526200609945 /* Assets.xcassets in Resources */,
-				DD3832ED29C1571300609945 /* .swift-version in Resources */,
 				DD4AE2C429C158BA001CFB08 /* README.md in Resources */,
-				DD3832E929C1570C00609945 /* swiftgen.yml in Resources */,
+				DD4AE2D329C15FE7001CFB08 /* swiftgen.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +312,7 @@
 			files = (
 				DD3831FC29C1526100609945 /* ContentView.swift in Sources */,
 				DD3831FA29C1526100609945 /* SwiftToolsDemoApp.swift in Sources */,
+				DD4AE2D829C15FFE001CFB08 /* Assets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +345,10 @@
 			isa = PBXTargetDependency;
 			target = DD3831F529C1526100609945 /* SwiftToolsDemo */;
 			targetProxy = DD38321129C1526200609945 /* PBXContainerItemProxy */;
+		};
+		DD4AE2C629C15A32001CFB08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = DD4AE2C529C15A32001CFB08 /* SwiftTools */;
 		};
 /* End PBXTargetDependency section */
 
@@ -643,6 +652,14 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DD4AE2C529C15A32001CFB08 /* SwiftTools */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD3832F129C1576600609945 /* XCRemoteSwiftPackageReference "SwiftTools" */;
+			productName = "plugin:SwiftTools";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DD3831EE29C1526100609945 /* Project object */;
 }
