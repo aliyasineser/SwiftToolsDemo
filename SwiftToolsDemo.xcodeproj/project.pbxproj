@@ -19,6 +19,7 @@
 		DD3832EC29C1571300609945 /* .swiftformat in Resources */ = {isa = PBXBuildFile; fileRef = DD3832EA29C1571300609945 /* .swiftformat */; };
 		DD3832ED29C1571300609945 /* .swift-version in Resources */ = {isa = PBXBuildFile; fileRef = DD3832EB29C1571300609945 /* .swift-version */; };
 		DD3832EF29C1571A00609945 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DD3832EE29C1571A00609945 /* .gitignore */; };
+		DD4AE2C429C158BA001CFB08 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DD4AE2C329C158BA001CFB08 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		DD3832EA29C1571300609945 /* .swiftformat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .swiftformat; sourceTree = "<group>"; };
 		DD3832EB29C1571300609945 /* .swift-version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
 		DD3832EE29C1571A00609945 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		DD4AE2C329C158BA001CFB08 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		DD3831ED29C1526100609945 = {
 			isa = PBXGroup;
 			children = (
+				DD4AE2C329C158BA001CFB08 /* README.md */,
 				DD3831F829C1526100609945 /* SwiftToolsDemo */,
 				DD38320929C1526200609945 /* SwiftToolsDemoTests */,
 				DD38321329C1526200609945 /* SwiftToolsDemoUITests */,
@@ -277,6 +280,7 @@
 				DD3832E829C1570C00609945 /* swiftlint.yml in Resources */,
 				DD3831FE29C1526200609945 /* Assets.xcassets in Resources */,
 				DD3832ED29C1571300609945 /* .swift-version in Resources */,
+				DD4AE2C429C158BA001CFB08 /* README.md in Resources */,
 				DD3832E929C1570C00609945 /* swiftgen.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
