@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "swifttools",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/aliyasineser/SwiftTools",
+      "state" : {
+        "branch" : "main",
+        "revision" : "7b47ac384881614f40b19f8b6f7ac9953826245f"
+      }
+    }
+  ],
+  "version" : 2
+}

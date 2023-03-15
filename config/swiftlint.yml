@@ -1,0 +1,59 @@
+opt_in_rules:
+- first_where
+- unused_declaration
+- toggle_bool
+- force_unwrapping
+- implicitly_unwrapped_optional
+
+disabled_rules:
+- inclusive_language
+- comment_spacing
+- for_where
+
+force_unwrapping: error
+
+implicitly_unwrapped_optional:
+  severity: error
+
+identifier_name:
+  min_length: 2
+  error: 1
+  excluded:
+    - i
+    - id
+    - x
+    - y
+
+nesting:
+  type_level:
+    warning: 3
+    error: 4
+  function_level:
+    warning: 5
+    error: 10
+
+line_length:
+  warning: 140
+  error: 200
+  ignores_comments: true
+  ignores_urls: true
+
+custom_rules:
+  direct_storyboards_api:
+    name: "No UIStoryboard(..) in new code!"
+    message: "please use SwiftGen"
+    regex: 'UIStoryboard\('
+    severity: error
+  direct_services_factory_access:
+    name: "No direct access to servicesFactory in the delegate"
+    message: "please use injection as in the rest of the project!"
+    regex: '\(UIApplication.shared.delegate as! AppDelegate\).servicesFactory'
+    severity: error
+  direct_services_factory_access_optional:
+    name: "No direct access to servicesFactory in the delegate"
+    message: "please use injection as in the rest of the project!"
+    regex: '\(UIApplication.shared.delegate as\? AppDelegate\)\?.servicesFactory'
+    severity: error
+
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - SwiftGen
